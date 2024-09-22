@@ -5,7 +5,7 @@ let currentAudio = null;
 btns.forEach(t => {
     // console.log(t.innerHTML);
     let audio = document.createElement("audio");
-    audio.src = `./sounds/${t.innerHTML}.mp3`;
+    audio.src = `sounds/${t.innerHTML}.mp3`;
     // console.log(audio);
     
     t.addEventListener("click", (e) => {
